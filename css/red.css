@@ -1,0 +1,60 @@
+
+/* Color styles
+================================================== */
+.btn-main:hover{
+    background:#EE3B24;
+    border:1px solid#EE3B24;
+    color: #fff;
+}
+.btn-main.featured{
+    background: #EE3B24;
+    border:1px solid#EE3B24;
+    color: #fff;
+}
+.btn-main.featured:hover{
+    background: red;
+    color:#fff;
+    border:1px solid#333;
+}
+/*Menu style
+==================================*/
+#section_header .haeder-fixed,#section_header{
+    background: red;
+}
+.divider{
+    background: #EE3B24;
+    }
+.navbar-brand:hover{
+    color:#EE3B24;
+}
+ul.navbar-nav > .active > a{
+    color:#EE3B24!important;
+}
+ul.navbar-nav > li > a:hover{
+    color:#EE3B24!important;
+}
+ul.navbar-nav > .active > a,ul.navbar-nav > li > a:hover,.carousel-caption h4{
+    color:#EE3B24!important;
+}
+.navbar-toggle .icon-bar{
+    background:#000; 
+}
+.navbar-toggle {
+    background: #ccc;
+}
+
+.navbar-brand span{
+    color:#000;
+}
+ul.navbar-nav a {
+    color: #3a3a3a;
+}
+ul.navbar-nav > .active> a:hover{
+    color:#000 !important;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, 
+.dropdown-menu>li.active>a{
+    color: #EE3B24 !important;
+}
+
+

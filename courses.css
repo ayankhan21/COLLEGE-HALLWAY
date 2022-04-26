@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,100&display=swap');
+body{
+    background-color: #0d1b2b !important;
+    margin: 20px;
+    padding: 20px;
+}
+html{
+    width: 100%;
+}
+.container{
+    max-width: 1000px;
+    padding: 30px;
+    background-color: rgb(82, 161, 135);
+    border-radius: 6px;
+    text-align: center;
+}
+.card{
+    box-shadow: 5px 5px gray;
+    border: 5px solid white;
+    width: 25rem;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    border-radius:10px 10px 0 0;
+   }
+#place{
+    background-color: black;
+    text-align: center;
+    font-family: 'Tourney',cursive;
+    padding: 10px;
+    max-width: 700px;
+    box-shadow: 5px 5px gray;
+    border: 5px solid white;
+    width: 700px;
+    border-radius: 6px;
+    animation: flicker 1.5s infinite alternate;  
+	color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+	  font-weight: 400;
+}
+header{
+    background-color: black;
+    font-family: 'Tourney',cursive;
+    padding: 10px;
+    font-size: 8rem;
+	animation: flicker 1.5s infinite alternate;  
+	color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+	  font-weight: 400;
+}
